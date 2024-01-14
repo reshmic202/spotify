@@ -1,0 +1,677 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    background-color: black;
+    height: 65px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
+.left{
+   display: flex;
+   margin-left: 150px;
+   
+}
+.left img{
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+}
+.right{
+    margin-right: 50px;
+}
+.right ul{
+    display: flex;
+   justify-content: end;
+
+}
+.right li{
+    list-style: none;
+}
+.right li a{
+    color: white;
+    text-decoration: none;
+    margin: 25px;
+}
+main{
+    background-image: linear-gradient( purple,rgba(0, 0, 255, 0.641));
+    height: 480px;
+    padding: 80px;
+    display: flex;
+}
+main img{
+    margin-left: 150px;
+    margin-right:50px;
+    height: 400px;
+    border: 8px solid white;
+    border-bottom: none;
+    border-top: 45px  solid white;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+main h1{
+    color: white;
+    font-size: 55px;
+    margin: 50px;
+}
+.main1{
+    padding:10px;
+}
+.main1 button{
+    height: 40px;
+    width: 170px;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin-left: 50px;
+}
+.main2 h1{
+    padding-top: 60px;
+    display: flex;
+    justify-content:center;
+
+}
+.about{
+    margin-top:40px;
+    display: flex;
+    margin-left: 130px;
+    
+}
+.ab1{
+    padding-right: 60px;
+}
+.ab1 h1{
+    padding-right: 40px;
+}
+.ab1 img{
+   margin-left: 50px;
+    height:100px;
+    border: 15px solid palevioletred;
+    border-radius: 50%;
+}
+.ab1 h2{
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.ab1 p{
+    margin: 5px;
+    text-align: center;
+}
+.main3{
+    margin-top: 70px;
+    background-image: linear-gradient( purple,rgba(0, 0, 255, 0.641));
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    color: white;
+}
+.main3 h1{
+    font-size: 50px;
+}
+.main4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    height: 400px;
+}
+.main5{
+    height: 350px;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.641), purple);  
+    color: white;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.main5 h1{
+    margin-bottom: 20px;
+    font-size:60px;
+}
+.main5 button{
+    height: 40px;
+    width: 200px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+footer{
+    background-color: black;
+    height: 450px;
+}
+.a{
+    display: flex;
+    color: white;
+}
+.a img{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50%;
+    height: 40px;
+}
+.footer2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 80px;
+}
+.b h1{
+    color: grey;
+    font-size:10px;
+    padding-bottom: 25px;
+}
+.b li{
+    margin-bottom: 15px;
+}
+.b li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.b li a:hover{
+    color: green;
+}
+.c{
+    display: flex;
+    flex-direction: row;
+}
+.c li img {
+    border: 1px solid white;
+    background-color:grey;
+    border-radius: 50%;
+    height: 40px;
+}
+.c li img:hover{
+    background-color: green;
+}
+.footer1 ul{
+    display: flex;
+    margin-top:120px;
+    margin-left: 170px;
+    
+}
+.footer1  li{
+    list-style: none;
+}
+.footer1 li a {
+    text-decoration: none;
+    color: grey;
+    font-size:11px;
+    padding-left: 30px;
+}
+.footer1 li a:hover{
+    color: green;
+}
+.main4{
+    height:90vh;
+    text-align: center;
+}
+.mainFAQ{
+    text-align: justify;
+    width: 100%;
+    padding-left: 250px;
+    padding-right: 250px;   
+}
+.faq{
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+.faq:hover{
+    background-color: rgba(128, 128, 128, 0.622);
+}
+
+#faqID:hover{
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
+/* premium page styling
+......................... */
+
+
+.mainCont1{
+    background-image: linear-gradient(180deg, rgba(255, 192, 203, 0.184),black);
+    height: 480px;
+    display: flex;
+    justify-content: space-around;
+}
+.main6{
+    height: 400px;
+    width: 380px;
+    padding-top:80px ;
+    color: white;
+    margin-left: 130px;
+}
+.main6 h1{
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+.main6 h2{
+    padding-bottom:30px;
+    font-size:20px;
+}
+.main7 img{
+    height: 400px;
+    width: 450px;
+    transform: rotate(-20deg);
+    padding-top: 70px;
+    margin-left: 250px;
+}
+#btn1{
+    height: 40px;
+    width: 170px;
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: pink;
+}
+#btn2{
+    height: 40px;
+    width: 170px;
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+}
+.main6 p{
+    padding-top: 30px;
+    font-size: 10px;
+}
+
+.mainCont2{
+    background-image: linear-gradient(black,black);
+    height: 800px;
+    color: white;
+    padding-top: 90px;
+    text-align: center;
+
+}
+
+.spotify-table{
+    display:inline-block ;
+    justify-content: center;
+    
+}
+.A1{
+    background-image: linear-gradient(rgba(128, 0, 128, 0.414),rgba(128, 0, 128, 0.66));
+}
+.A2{
+    background-image: linear-gradient(rgba(128, 0, 128, 0.66),rgba(0, 0, 255, 0.707));
+}
+.A3{
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5),rgba(0, 0, 255, 0.401));
+}
+.A{
+    background-image: linear-gradient(rgba(0, 0, 255, 0.400),rgba(0, 0, 255, 0.300));
+}
+table tr{
+    height: 80px;
+   
+}
+table td{
+    font-size: 15px;
+}
+.mainCont3{
+    background-color: black;
+    height: 530px;
+    padding-top: 60px;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.mainCont3 h1{
+    font-size: 40px;
+    padding-bottom: 10px;
+
+}
+.mainCont3 h4{
+    padding-bottom: 30px;
+}
+.main8 img{
+    background-color: white;
+    border: 1px solid white;
+    height: 30px;
+    width: 40px;
+    margin: 5px;
+    border-radius: 3px;
+    margin-bottom: 30px; 
+}
+.main9{
+    border-radius: 15px;
+    padding-top: 20px;
+    height: 230px;
+    margin-right: 230px;
+    margin-left: 230px;
+    background:linear-gradient(rgb(18,18,18),rgb(18,18,18)) padding-box padding-box, linear-gradient(to right,rgb(176,13,110),rgb(8,71,145)),border-box border-box;
+    border-left: 2px solid rgb(176, 13, 110) !important ;
+    border-right: 2px solid rgb(8, 71, 145) !important ;
+    border-top: 2px solid rgb(176, 13, 110) !important ;
+    border-bottom: 2px solid rgb(8, 71, 145) !important ;
+}
+
+.main9 h2{
+    margin-bottom:15px;
+}
+.main9 p{
+    text-align: left;
+    padding-left: 410px;
+    
+}
+
+.mainCont4{
+    background-image:linear-gradient(black,rgba(0, 0, 0, 0.941));
+    height: 500px;
+    color: beige;
+    display: flex;
+}
+.main10{
+    height: 450px;
+    width: 350px;
+    border: 4px solid pink;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 100px;
+}
+.main10 #btn3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgba(255, 192, 203, 0.826);
+    padding:7px;
+    padding-left:15px ;
+    padding-right:15px ;
+    
+}
+.main10A{
+    font-size: 15px;
+
+}
+.main10B{
+    text-align: end;
+
+}
+.main10C{
+    padding-left: 20px;
+    padding-bottom: 70px;
+}
+.main10C li{
+    margin-top: 5px;
+}
+.main10Sub{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.main10 #btn4{
+    width: 300px;
+    background-color: pink;
+    padding: 10px;
+    border-radius: 5pc;
+    
+}
+.main10 p{
+    font-size: 10px;
+    text-align: center;
+}
+.main10 .para1{
+    padding-top: 12px;
+    
+}
+
+.main11{
+    height: 450px;
+    width: 350px;
+    border: 4px solid rgba(255, 200, 0, 0.562);
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 100px;
+}
+.main11C{
+    padding-left: 20px;
+    padding-bottom: 70px;
+}
+.main11C li{
+    margin-top: 5px;
+}
+.main11 .para2{
+    padding-top: 12px;
+}
+.main11 p{
+    font-size: 10px;
+    text-align: center;
+}
+.main11 #btn5{
+    width: 300px;
+    margin-top: 60px;
+    background-color: rgba(255, 200, 0, 0.562);
+    padding: 10px;
+    border-radius: 5pc;
+    
+}
+.main12{
+    height: 450px;
+    width: 350px;
+    border: 4px solid cornflowerblue;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 100px;
+}
+.main12C{
+    padding-left: 20px;
+    padding-bottom: 70px;
+}
+
+.main12C li{
+    margin-top: 5px;
+    
+}
+.main12 .para3{
+    padding-top: 12px;
+}
+.main12 p{
+    font-size: 10px;
+    text-align: center;
+}
+.main12 #btn6{
+    margin-top: 10px;
+    width: 300px;
+    background-color: cornflowerblue;
+    padding: 10px;
+    border-radius: 5pc;
+}
+
+.mainCont5{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.941),rgba(0, 0, 0, 0.814));
+    height: 500px;
+    color: beige;
+    display: flex;
+    justify-content: center;
+}
+.main13{
+    height: 450px;
+    width: 350px;
+    border: 4px solid rgba(96, 0, 128, 0.701);
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 100px;
+}
+.main13 #btn7{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgba(96, 0, 128, 0.701);
+    padding:7px;
+    padding-left:15px ;
+    padding-right:15px ;
+    
+}
+.main13A{
+    font-size: 15px;
+
+}
+.main13B{
+    text-align: end;
+
+}
+.main13C{
+    padding-left: 20px;
+    padding-bottom: 70px;
+}
+.main13C li{
+    margin-top: 5px;
+}
+.main13Sub{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.main13 #btn8{
+    width: 300px;
+    background-color: rgba(96, 0, 128, 0.701);
+    padding: 10px;
+    border-radius: 5pc;
+    
+}
+.main13 p{
+    font-size: 10px;
+    text-align: center;
+}
+.main13 .para4{
+    padding-top: 12px;
+    
+}
+.mainCont6{
+    height:90vh;
+    text-align: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.807),rgba(0, 0, 0, 0.941));
+    color: azure;
+}
+.mainCont6 h1{
+    margin-bottom: 15px;
+    padding-top: 50px;
+}
+.mainCont6 h3{
+    margin-bottom: 15px;
+}
+.mainCont6 h5{
+    margin-bottom: 20px;
+}
+.mainFAQ1{
+    text-align: justify;
+    width: 100%;
+    padding-left: 250px;
+    padding-right: 250px;   
+    color: azure;
+}
+.faq1{
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+.faq1:hover{
+    background-color: rgba(128, 128, 128, 0.862);
+}
+
+#faqID1:hover{
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
+/* downloadpage */
+.Dmain{
+    background-color: rgb(0, 128, 81);
+}
+.Dmain1{
+   
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    align-items: center;
+    height: 600px;
+}
+.Dmain1 #img1{
+    height: 100px;
+    width: 200px;
+}
+.Dmain1 h1{
+    padding-top: 30px;
+    font-size: 50px;
+}
+.Dmain1 span{
+    padding-top: 25px;
+}
+.Dmain1 #img2{
+    padding-top: 30px;
+    height: 100px;
+    width: 600px;
+}
+.Dmain1 a{
+    padding-top: 40px;
+    color:black;
+}
+.Dmain2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.Dmain2 h1{
+    margin-bottom: 30px;
+}
+
+   
+.Dmain2 img{
+    width: 150px;
+    height: 50px;
+    
+}
+.Dmain2Img img{
+
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding-left: 20px;
+    margin-bottom: 80px;
+}
+.Dmain3{
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.768);
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+}
+.Dmain3 img{ 
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.Dmain3 h1{ 
+    color: azure;
+    padding-bottom: 30px;
+}
+.Dli {
+    display: flex;
+    color: azure;
+}
+.Dli li{ 
+    margin-left: 30px;
+}
+.Dli li a{
+    color: green;
+} 
+
+
